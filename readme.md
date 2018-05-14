@@ -19,17 +19,17 @@ To run this application, ensure that the following programs are already installe
 
 1.  Clone the repository
 
-`https://github.com/SendiSteve/basic-laravel-website.git`
+    `https://github.com/SendiSteve/basic-laravel-website.git`
 
 2.  Install all dependencies
 
-`composer install`
+    `composer install`
 
 3.  Run migrations to setup database
 
-First create a database basicwebsite in phpmyadmin and then run the command below
+    First create a database basicwebsite in phpmyadmin and then run the command below
 
-`php artisan migrate`
+    `php artisan migrate`
 
 4.  Start the server
 
