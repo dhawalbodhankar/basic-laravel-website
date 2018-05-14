@@ -17,7 +17,10 @@
         @endif
         <div class="row">
             <div class="col-lg-8 col-md-8">
-                    @yield('content')
+                
+                @include('includes.messages')
+
+                @yield('content')
             </div>
             <div class="col-lg-4 col-md-4">
                     @include('includes.sidebar')
